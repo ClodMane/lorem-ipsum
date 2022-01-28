@@ -1,0 +1,74 @@
+.calculator {
+  padding-top: 56px;
+  @media screen and (min-width: "320px") {
+    padding-top: 39px;
+  }
+  @media screen and (min-width: "1200px") {
+    padding-top: 80px;
+  }
+  &__marker {
+    position: absolute;
+    top: 47px;
+    left: 8px;
+  }
+  &__input {
+    position: relative;
+    @media screen and (min-width: "768px") {
+      &:first-child {
+        margin-right: 16px;
+      }
+    }
+    @media screen and (min-width: "320px") {
+      height: 69px;
+    }
+  }
+
+  &__inputs {
+    @media screen and (min-width: "768px") {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: row;
+    }
+    @media screen and (min-width: "320px") {
+      padding-top: 11px;
+    }
+  }
+
+  .input {
+    box-sizing: border-box;
+    padding: 22px 15px;
+    background-color: #ffffff;
+    height: 56px;
+    width: 280px;
+    border-radius: 2px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid #eaeaea;
+
+    &:focus, &:active  {
+      background: #ffffff;
+      border: 1px solid rgba(251, 177, 67, 0.5);
+      box-sizing: border-box;
+      box-shadow: 0px 0px 20px rgba(251, 177, 67, 0.2);
+      border-radius: 2px;
+    }
+  }
+
+  &__text {
+    .main-text {
+      @media screen and (min-width: "768px") {
+        max-width: 353px;
+        margin-left: 40px;
+      }
+      @media screen and (min-width: "1200px") {
+        margin: 30px 0 0 0;
+      }
+    }
+  }
+  .section__heading {
+    @media screen and (min-width: "1200px") {
+      max-width: 530px;
+    }
+  }
+}

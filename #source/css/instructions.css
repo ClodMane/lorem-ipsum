@@ -1,0 +1,111 @@
+.instructions {
+  padding-top: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .instructions {
+    padding-top: 75px;
+    background: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .instructions {
+    background: none;
+  }
+}
+.instructions .card__head {
+  padding-top: 17px;
+}
+.instructions .card__body {
+  margin-bottom: 8px;
+}
+.instructions .section__heading {
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .instructions .section__heading {
+    margin: 25px 0 10px 0;
+  }
+}
+.instructions__items {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .instructions__items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-left: 40px;
+    margin: 0;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .instructions__items {
+    margin: 0;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+.instructions__item {
+  width: 264px;
+}
+@media screen and (min-width: 768px) {
+  .instructions__item {
+    margin-right: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .instructions__item {
+    width: 260px;
+  }
+}
+.instructions__item .card__image-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .instructions__item .card__image-wrapper {
+    height: 68px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .instructions__item .card__image-wrapper {
+    height: 68px;
+  }
+}
+
+.works__frames {
+  overflow: hidden;
+}
+
+#envelope-image {
+  height: 81px;
+  width: 72px;
+}

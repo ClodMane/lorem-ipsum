@@ -1,0 +1,16 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    &__head {
+        font-weight: 1000;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 24px;
+        color: #232323;
+        margin: 0;
+    
+    }
+}
+
+
+

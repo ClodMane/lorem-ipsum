@@ -1,0 +1,6 @@
+@font-face {
+  font-family: "Avenir Next Cyr";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/avenirnextcyr-bold.woff2") format("woff2"), url("../../fonts/avenirnextcyr-bold.woff") format("woff");
+}

@@ -1,0 +1,42 @@
+.statistics {
+  @media screen and (min-width: "1200px") {
+    padding: 17px 0 0 0;
+  }
+
+  &__items {
+    @media screen and (min-width: "768px") {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      margin-left: 40px;
+    }
+    @media screen and (min-width: "1200px") {
+      align-items: flex-start;
+      margin-left: 0;
+    }
+
+    .card {
+      margin-bottom: 31px;
+
+      @media screen and (min-width: "768px") {
+        margin-right: 40px;
+        margin-bottom: 0;
+      }
+      @media screen and (min-width: "1200px") {
+        margin-right: 90px;
+        align-items: flex-start;
+      }
+    }
+    .card__head {
+      width: 200px;
+    }
+
+    .card__image-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      height: 113px;
+    }
+  }
+}
