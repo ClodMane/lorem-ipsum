@@ -13,7 +13,7 @@
   }
   &__input {
     position: relative;
-    @media screen and (min-width: "768px") {
+    @media screen and (min-width: "600px") {
       &:first-child {
         margin-right: 16px;
       }
@@ -24,7 +24,7 @@
   }
 
   &__inputs {
-    @media screen and (min-width: "768px") {
+    @media screen and (min-width: "600px") {
       display: flex;
       justify-content: flex-start;
       flex-direction: row;
@@ -57,9 +57,9 @@
 
   &__text {
     .main-text {
-      @media screen and (min-width: "768px") {
+      @media screen and (min-width: "600px") {
         max-width: 353px;
-        margin-left: 40px;
+        // margin-left: 40px;
       }
       @media screen and (min-width: "1200px") {
         margin: 30px 0 0 0;

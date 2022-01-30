@@ -1,5 +1,5 @@
 $('.reviews__items').slick({
-    infinite: false,
+    infinite: true,
     slidesToShow: 4,
     slidesToScroll: 1,
     prevArrow: $(".prevArrow"),
